@@ -31,6 +31,38 @@ body {
   border-radius: 100000px;
 }
 
+.countries {
+  border: 3px solid #000;
+  padding: 10px 20px;
+  border-radius: 100000px;
+  background: #ffc700;
+}
+
+.hero-img {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+}
+
+.hero-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+  padding: 0% 15%;
+}
+
+.rounded-img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  background: #ffffff;
+  border: #000 6px solid;
+  position: absolute;
+  bottom: -75px;
+  right: 200px;
+}
+
 .main-text {
   text-align: center;
   font-size: 50px;
